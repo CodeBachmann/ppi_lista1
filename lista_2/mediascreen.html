@@ -12,12 +12,7 @@
         "footer footer footer footer"
         ;
         grid-template-rows: 1fr 5fr 1fr;
-        
-     }
-     #box3{
-        grid-area: sidebar;
-        background-color:coral;
-    }
+     }}
      .box{
         border: 1px solid black;
      }
@@ -31,7 +26,10 @@
         display: flex;
         flex-wrap: wrap;
      }
-     
+     #box3{
+        grid-area: sidebar;
+        background-color:coral;
+        
      }
      #box4{
         grid-area: footer;
@@ -57,7 +55,11 @@
         "main"
         "footer"
         
-     }}
+     }
+     #box3{
+        display: none;
+     }
+    }
 
    </style>
 </head>
